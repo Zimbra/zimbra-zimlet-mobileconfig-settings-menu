@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "zimbra-zimlet-mobileconfig-settings-menu",
+  "version": "1.0.0",
+  "license": "BSD-3",
+  "description": "Adds a menu option in the Settings menu to download mobileconfig file to configure your Zimbra account on Apple devices",
+  "main": "build/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "zimlet build",
+    "watch": "zimlet watch",
+    "start": "zimlet watch",
+    "package": "zimlet package --name $npm_package_name --description $npm_package_description --pkg-version $npm_package_version --zimbraXVersion '^2.0.0'",
+    "lint": "eslint src",
+    "lint:fix": "npm run lint -- --fix",
+    "security:audit": "audit-ci --moderate --report"
+  },
+  "keywords": [
+    "zimlet",
+    "ZimbraX",
+    "Zimbra"
+  ],
+  "author": "",
+  "eslintConfig": {
+    "extends": "eslint-config-synacor"
+  },
+  "devDependencies": {
+    "@zimbra/zimlet-cli": "^14.3.0"
+  }
+}

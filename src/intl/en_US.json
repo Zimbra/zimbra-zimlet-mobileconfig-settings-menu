@@ -1,0 +1,12 @@
+{
+  "zimlet": {
+    "label": "Mobileconfig in Settings menu Zimlet",
+    "description": "Adds a menu option in the Settings menu to download mobileconfig file to configure your Zimbra account on Apple devices."
+  },
+  "zimbra-zimlet-mobileconfig-settings-menu": {
+    "menuItem": "Configure Zimbra on Apple device",
+    "modalText": "Download a mobileconfig profile to automatically configure your Apple devices with Zimbra email, contacts and calendar.",
+    "buttonText": "Download Profile",
+    "downloading": "Downloading profile..."
+  }
+}
